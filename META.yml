@@ -1,0 +1,22 @@
+---
+author:
+  - 'Yoshinori Matsunobu <Yoshinori.Matsunobu@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: 'GPL v2'
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: mha4mysql-node
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  DBD::mysql: 0
+  DBI: 0
+version: 0.56
